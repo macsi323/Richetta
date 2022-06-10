@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height:15%;
+}
+
+h2{
+    margin-bottom: 50px;
+    margin-left: 1.5rem;
+    text-decoration: underline ;
+    color: rgb(41, 90, 165);
+}
+
+.bg-light{
+    background-color: transparent !important;
+}
+
+.navbar-brand{
+    margin-right: 0%;
+    width: 44%;
+    height: 94px;
+}
+
+.offcanvas.show:not(.hiding){
+    width: 17%;
+}
+
+.offcanvas.offcanvas-end{
+    width: 17%;
+}
+
+.navbar-nav .nav-link.active{
+    color: #295aa5;
+    font-size: 1.4em;
+}
+
+.nav-link{
+    color: #295aa5;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.img-logo{
+    width: 30%;
+    height: 85px;
+    background-color: blue;
+    object-fit: contain;
+}
+
+main{
+    width: 100%;
+    height: 50%;
+}
+
+/* CONTACTO */
+
+.section-contacto{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.div-contacto{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.div-contacto1{
+    display: inline-block;
+    width: 20%;
+    height: fit-content;
+    color: white;
+    font-size: 2.1em;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #295aa5;
+}
+
+.div-contacto2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.div-contacto4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.div-contacto5{
+    width: 50%;
+    margin-left: 24px;
+    padding-right: 18px;
+    padding-left: 18px;
+    display: flex;    
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.v-agrupado{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vector-contacto{
+    width: 50%;
+}
+
+.img-vector{
+    width: 60%;
+}
+
+.consultanos-contacto{
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.consultanos-contacto:hover{
+    transform: scale(1.1);
+}
+
+.boton-consultanos{
+    border: 2px solid #295aa5;
+    border-radius: 30px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.div-iframe{
+    width: 50%;
+}
+
+.contacto-richetta{
+    text-align: center;
+}
+
+.contacto-richetta1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-contacto2{
+    width: 20px;
+    height: 20px;
+    color: #295aa5;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: max-content;
+}
+
+.mancha-gris{
+    display: block;
+}
+
+.mancha__gris{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+
+.centro-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul>li{
+    list-style-type: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+.link-footer{
+    font-size: 1rem;
+    color: #295aa5;
+
+}
+
+.contacto-footer{
+    font-size: 0.92rem;
+
+}
+
+.img-footer{
+    width: 25%;
+}
+
+img.img__footer{
+    object-fit: contain;
+    width: 100%;
+}
+
+.pie-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pie__footer {
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+img.img-piefooter {
+    height: 38px;
+}
+
+.manchas-bajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mancha__azul{
+    height: 60px;
+}
+
+.mancha__roja{
+    height: 60px;
+}
+
+/* NOSOTROS */
+
+.nosotros{
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+
+.fotos-nosotros{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.fotos__nosotros{
+    width: 100%;
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.texto-nosotros{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h2equipo{
+    color: rgb(255, 20, 31);
+    text-align: right;
+    margin-right: 1.5rem;
+}
+
+.pnosotros{
+    padding: 3rem;
+}
+
+.a-nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(41, 90, 165);
+    margin-top: 75px;
+    
+}
+
+.a__nosotros{
+    border: 2px solid rgb(41, 90, 165);
+    border-radius: 24px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.a__2nosotros{
+    border: 2px solid rgb(255, 20, 31);
+    border-radius: 24px;
+    padding: 10px;
+    color: rgb(255, 20, 31);
+    font-weight: 500;
+    font-size: 14px;
+}
