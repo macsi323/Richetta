@@ -7,6 +7,7 @@
 body{
     width: 100%;
     height: 100vh;
+    font-family: Roboto,sans-serif;
 }
 
 header{
@@ -50,11 +51,65 @@ h2{
     font-weight: bold;
 }
 
+.nav-item{
+    margin-top: 1rem;
+}
+
+.accordion-item{
+    border: none;
+    border-color: none;
+    --bs-accordion-btn-focus-border-color:none !important;
+}
+
+.accordion-header{
+    margin-top: 1rem;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.accordion-button{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #295aa5 !important;
+    padding: 0 !important;
+    background-color: none;
+}
+
+.accordion-button::after{
+    display: none;
+}
+
+.accordion-item:first-of-type .accordion-button{
+    background-color: white;
+}
+
+.accordion-button:focus{
+    border-color: white;
+}
+
+.accordion-body{
+    font-size: 1.1rem;
+    color: #295aa5;
+    font-weight: 400;
+}
+
+.accordion{
+    --bs-accordion-btn-focus-border-color: #f54444 !important;
+}
+
+a{
+    color: #295aa5;
+}
+
 .img-logo{
     width: 30%;
     height: 85px;
     background-color: blue;
     object-fit: contain;
+}
+
+.img-logo1{
+    display: none;
 }
 
 main{
@@ -170,6 +225,176 @@ main{
     color: #295aa5;
 }
 
+/* HISTORIA */
+
+.sectionhistoria{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}    
+
+.fotoshistoria{
+    width: 62.5%;
+    height: 1307.2px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+/* .fotos__historia{
+} */
+
+/* ------AGREGAR A VARIABLE H2 Y MEDIDAS FONDO AZUL---- */
+.h2historia{
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: #295aa5;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.textohistoria{
+    width: 37.5%;
+    
+}
+
+.texto__historia{
+    display: inline-block;
+    max-height: 80vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+
+.sumate-historia{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 48px;
+    transition: 0.5s;
+}
+
+.sumate-historia:hover{
+    transform: scale(1.1);
+}
+
+.boton-sumate{
+    border: 2px solid #295aa5;
+    border-radius: 30px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ----MISION-VALORES---- */
+
+.h2-p{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    margin-top: 3rem;
+}
+
+.h2-mision{
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2.1rem;
+    background-color: #295aa5;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.p-mision{
+    padding-left: 1rem;
+}
+
+.div-vision{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-vision{
+    width: 9em;
+}
+
+.card-vision{
+    height: 150px;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: #e0e0e0;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    box-shadow: 5px 5px 5px #e0e0e0;
+}
+
+.h4-vision{
+    color: #295aa5;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.p-vision{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.card-mision{
+    height: 290px;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: #e0e0e0;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    box-shadow: 5px 5px 5px #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIN HISTORIA */
 
 /* FOOTER */
 
@@ -213,6 +438,9 @@ a {
 
 .contacto-footer{
     font-size: 0.92rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
 }
 
