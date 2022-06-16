@@ -368,10 +368,76 @@ main{
     box-shadow: 5px 5px 5px #e0e0e0;
 }
 
+/* ----valores---- */
 
 
+.valores{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
+.div-valores{
+    display: inline-block;
+    width: 20%;
+    height: fit-content;
+    color: white;
+    font-size: 2.1em;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #295aa5;
+}
 
+.div-valores1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.valores2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div-valores2{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-valores{
+    width: 592px;
+    height: 262.156px;
+    filter: drop-shadow(rgb(215, 219, 221) 5px 5px 10px);
+}
+
+.div-sumate{
+    width: 1263px;
+    height: 153px;
+    padding-bottom: 16px;
+    padding-right: 48px;
+}
+
+.boton-sumate{
+    margin-left: 90%;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-color: rgb(240, 240, 240);
+    transition: 0.5s;
+
+}
+
+.boton-sumate:hover{
+    transform: scale(1.1);
+
+}
 
 
 
