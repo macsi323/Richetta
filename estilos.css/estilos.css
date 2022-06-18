@@ -135,7 +135,7 @@ main{
 
 .div-contacto1{
     display: inline-block;
-    width: 20%;
+    width: 25%;
     height: fit-content;
     color: white;
     font-size: 2.1em;
@@ -308,6 +308,7 @@ main{
 
 .h2-mision{
     width: 50%;
+    height: 66.3906px;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -439,6 +440,318 @@ main{
 
 }
 
+/* ----EQUIPO---- */
+
+.div-equipo{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.div-equipo1{
+    display: inline-block;
+    width: 20%;
+    height: fit-content;
+    color: white;
+    font-size: 2.1em;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #295aa5;
+}
+
+.div-equipo3{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.div1-fotos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+.div2-fotos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+.div3-fotos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.div-sumate-integrantes{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 50%;
+
+}
+
+.btn-sumate-integrantes{
+    background-color: rgb(240, 240, 240);
+    border: 2px solid #295aa5;
+    border-radius: 30px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;    
+    transition: 0.5s;
+}
+
+.btn-sumate-integrantes:hover{
+    transform: scale(1.1);
+}
+
+/* ----SUMATE */
+
+.seccion-sumate{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.div-fotosumate{
+    margin-left: 52.625;
+    margin-right: 52.625;
+    padding-left: 15;
+    padding-right: 15;
+}
+
+.div-formsumate2{
+    border: 3px solid #295aa5;
+    max-width: 430px;
+    padding-top: 1.5rem;
+    padding-right: 15px;
+}
+
+form{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.p-sumate{
+    width: 84.5%;
+}
+
+.textoform{
+    display: inline-block;
+    width: 82%;
+    height: 63px ;
+    color: white;
+    font-size: 2.1em;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #295aa5;
+}
+
+/* .row{
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+} */
+
+.col-md-6{
+    width: 90%;
+}
+
+.col-md-4{
+    width: 90%;
+}
+
+.col-12{
+    width: 90%;
+}
+/* .textarea{
+    margin-top: 24;
+    margin-bottom: 24;
+} */
+
+textarea{
+    width: 82%;
+}
+
+.form-floating{
+    width: 90%;
+}
+
+.col-13{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* ----CONOCENOS---- */
+
+.div-conocenos{
+    height: 688.797px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+
+}
+
+.div__imgconocenos{
+    width: 285.75px;
+    height: 672.8;
+    margin-left: 10px;
+}
+
+.img-conocenos{
+    margin-bottom: 1rem;
+}
+
+.div-ellosrep{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2-conocenos{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 1rem;
+    margin-left: 0;
+
+}
+
+div>ul{
+    list-style-type: disc;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+/* ----MATERIALES---- */
+
+.section-contacto1{
+    margin-bottom: none;
+}
+
+.div-materiales{
+    width: 298px;
+    height: 2850px;
+    display: flex;
+    flex-direction: row;
+    /* padding-bottom: 3rem; */
+}
+
+.search-materiales{
+    width: 298px;
+    padding-top: 45px;
+    background-color: rgb(234, 237, 237);
+}
+
+.d-flex{
+    width: 270px;
+    padding-left: 2rem;
+    padding-bottom: 25px;
+}
+
+.div-materiales1{
+    width: 298px;
+    height: 2890    px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgb(234, 237, 237);
+}
+
+.ahref-materiales{
+    width: 205px;
+    height: 24px;
+    display: block;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+}
+
+.div-materiales2{
+    width: 965px;
+}
+
+.cards-materiales3{
+    width: 965px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+    padding-right: 0.5rem;
+
+}
+
+.card-automatismo{
+
+    width: 20rem;
+    height: 321px;
+    box-shadow: 6px 5px 11px 2px;
+    cursor: pointer;
+}
+
+.cards-materiales{
+    width: 20rem;
+    box-shadow: 6px 5px 11px 2px;
+    margin-bottom: 30px;
+}
+
+
+.p-card{
+    text-align: center;
+    font-weight: 700;
+    padding: 1.5rem;
+}
+
+.p-card:hover{
+    color: #295aa5;
+}
+
+
+/* ----SERVICIOS---- */
+
+
+.section-contacto2{
+    height: 1740px;
+}
+
+.ahref-materiales2{
+    width: 168px;
+    height: 48px;
+    display: block;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.div-materiales4{
+    width: 298px;
+    height: 1545px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+}
 
 
 
@@ -451,16 +764,6 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-/* FIN HISTORIA */
 
 /* FOOTER */
 
